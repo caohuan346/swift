@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "container:"
+      name = "01_HelloWorld">
+      <FileRef
+         location = "group:day_01/01_HelloWorld/01_HelloWorld.xcodeproj">
+      </FileRef>
+   </Group>
 </Workspace>
