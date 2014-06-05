@@ -10,5 +10,8 @@
       <FileRef
          location = "group:day_01/02_Function/02_Function.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:day_01/03_ClassAndObject/03_ClassAndObject.xcodeproj">
+      </FileRef>
    </Group>
 </Workspace>
