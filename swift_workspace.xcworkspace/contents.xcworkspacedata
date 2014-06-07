@@ -2,22 +2,29 @@
 <Workspace
    version = "1.0">
    <Group
-      location = "container:"
+      location = "group:01_HelloWorld"
       name = "01_HelloWorld">
       <FileRef
-         location = "group:day_01/01_HelloWorld/01_HelloWorld.xcodeproj">
+         location = "group:01_HelloWorld/01_HelloWorld.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:day_01/02_Function/02_Function.xcodeproj">
+         location = "group:02_Function/02_Function.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:day_01/03_ClassAndObject/03_ClassAndObject.xcodeproj">
+         location = "group:03_ClassAndObject/03_ClassAndObject.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:day_01/04_StuctAndOthers/04_StuctAndOthers.xcodeproj">
+         location = "group:04_StuctAndOthers/04_StuctAndOthers.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:day_01/05_ProtocolAndExtension/05_ProtocolAndExtension.xcodeproj">
+         location = "group:05_ProtocolAndExtension/05_ProtocolAndExtension.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:02_LanguageGuide"
+      name = "02_LanguageGuide">
+      <FileRef
+         location = "group:01_TheBasic/01_TheBasic.xcodeproj">
       </FileRef>
    </Group>
 </Workspace>
