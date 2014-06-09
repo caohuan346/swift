@@ -1,0 +1,41 @@
+//
+//  main.swift
+//  02_Basic_Operators
+//
+//  Created by hc on 14-6-9.
+//  Copyright (c) 2014年 hc. All rights reserved.
+//
+
+import Foundation
+
+//Assignment Operator////////////////////////////////////////////////////////////////////////////
+let a = 10
+var b = 5
+b = a
+println(b)
+
+
+let (x, y ,z) = (1, 2, 2)
+if x == y {
+    println("x=y")
+}else if (y == z){
+    println("y=z")
+}
+
+//Arithmetic Operators 算术符号////////////////////////////////////////////////////////////////////////////
+var c = 5, d = 10
+println("\(c+d) \(d/5)  \(c*d) \(d-5)")
+
+//swift不允许值溢出
+
+
+
+
+//Assignment Operator////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+//Assignment Operator////////////////////////////////////////////////////////////////////////////
+
