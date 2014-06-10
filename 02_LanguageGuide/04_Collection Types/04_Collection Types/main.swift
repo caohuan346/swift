@@ -91,7 +91,26 @@ println(threeDoubles + anotherThreeDoubles)   //[0.1, 0.1, 0.1, 2.1, 2.1, 2.1, 2
 //KeyType must be hashable:such as String, Int, Double, and Bool
 
 //Dictionary Literals
+var airports: Dictionary<String,String> = ["TYO":"Tokyo", "DUB":"Dublin"]
+println("\(airports)")
+
+//Accessing and Modifying a Dictionary/////////////////////////////////////////////////////////
+println(airports.count)
+
+println(airports["TYO"])
+
+airports["TYO"] = "Tokyo city"
+println(airports["TYO"])
+
+//exist, add
+if let oldValue = airports.updateValue("Dublin International", forKey: "DUB") {
+    println("the old value for DUB is \(oldValue)")
+}
 
 
+//add
+if let oldValue2 = airports.updateValue("xxxxxx", forKey: "CHI") {
+    println("the old value for CHI is \(oldValue2)")
+}
 
-
+println(airports["CHI"])
