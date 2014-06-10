@@ -8,5 +8,6 @@
 
 import Foundation
 
-println("Hello, World!")
 
+let wiseWords = "\"Imagination is more important than knowledge\" - Einstein"
+println(wiseWords)
