@@ -26,5 +26,14 @@
       <FileRef
          location = "group:01_TheBasic/01_TheBasic.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:02_Basic_Operators/02_Basic_Operators.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:03_StringsAndCharacters/03_StringsAndCharacters.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:04_Collection Types/04_Collection Types.xcodeproj">
+      </FileRef>
    </Group>
 </Workspace>
