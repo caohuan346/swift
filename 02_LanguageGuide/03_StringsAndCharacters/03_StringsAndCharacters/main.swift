@@ -8,7 +8,13 @@
 
 import Foundation
 
-println("\"hello world \"")
+let someString = "Some string literal value"
+println(someString)
+
+let someString2 = "Some \0 string \\ literal \t value \n Some \r string \" literal \' value"
+println(someString2)
+
+let wiseWord = "\"Imagination is more important than knowledge"
 
 let dollarSign = "\x24"
 println(dollarSign)   //$   Unicode
