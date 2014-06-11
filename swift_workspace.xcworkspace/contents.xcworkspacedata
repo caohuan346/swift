@@ -35,5 +35,8 @@
       <FileRef
          location = "group:04_Collection Types/04_Collection Types.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:05_Control Flow/05_Control Flow.xcodeproj">
+      </FileRef>
    </Group>
 </Workspace>
