@@ -113,4 +113,85 @@ if let oldValue2 = airports.updateValue("xxxxxx", forKey: "CHI") {
     println("the old value for CHI is \(oldValue2)")
 }
 
+//add ,isn't easy?
+airports["AA"] = "AAaaaaaa"
+airports["BB"] = "BBbbbbbb"
+println(airports)
+
 println(airports["CHI"])
+
+
+if let airportName = airports["TYO"] {
+    println(" The name of the airport is \(airportName)")
+}else {
+    println(" The name of the airport is not exsit in dic")
+}
+
+
+//remove 1
+airports["APL"] = "Apple International"
+println(airports["APL"])
+airports["APL"] = nil
+
+
+//remove 1
+
+if let removedValue = airports.removeValueForKey("AA") {
+    println("remove value is \(removedValue)")
+} else {
+    println("there is not exsit a value for key AA")
+}
+
+
+//Iterating Over a Dictionary /////////////////////////////////////////////////////////
+
+for (airportCode, airportName) in airports {
+    println(" airportCode is \(airportCode), airportName is \(airportName)")
+}
+
+
+//user keys and values propertier
+for airportCode in airports.keys {
+    println("airportCode: \(airportCode)")
+}
+
+for airportCode in airports.keys {
+    println("----airportCode: \(airportCode),and airportName: \(airports[airportCode])")
+}
+
+
+for airportName in airports.values {
+    println("airportName:\(airportName)")
+}
+
+let airportCodes = airports.keys
+let airportValues = airports.values
+
+
+//createing an empty dictionary
+var namesOfIntegers = Dictionary<Int,String>()
+namesOfIntegers[1] = "one"
+namesOfIntegers[2] = "two"
+namesOfIntegers[3] = "three"
+namesOfIntegers[4] = "four"
+println(namesOfIntegers)
+
+//var namesOfIntegers2 = [:]
+//namesOfIntegers[1] = "one"
+//namesOfIntegers[2] = "two"
+//namesOfIntegers[3] = "three"
+//namesOfIntegers[4] = "four"
+//println(namesOfIntegers)
+
+
+//  If you create an array or a dictionary and assign it to a variable, the collection that is created will be mutable. This means that you can change (or mutate) the size of the collection after it is created by adding more items to the collection, or by removing existing items from the ones it already contains. Conversely, 
+
+//if you assign an array or a dictionary to a constant, that array or dictionary is immutable, and its size cannot be changed.
+
+
+
+
+
+
+
+
