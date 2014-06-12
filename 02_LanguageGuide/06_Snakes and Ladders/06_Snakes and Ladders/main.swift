@@ -8,7 +8,7 @@
 
 import Foundation
 
-////////////////////////////////////////////////////////////////////////////////////////////////
+//  while ////////////////////////////////////////////////////////////////////////////////////////////
 let finalSquare = 25
 var board = Int[](count: finalSquare + 1, repeatedValue: 0)
 
@@ -35,7 +35,7 @@ println("game over")
 
 
 
-//use do...while  ////////////////////////////////////////////////////////////////////////
+//1:  use do...while  ////////////////////////////////////////////////////////////////////////
 
 square = 0
 diceRoll = 0
@@ -50,3 +50,24 @@ do {
 
 
 println("game over again")
+
+
+//3:  Labeled Statements  ////////////////////////////////////////////////////////////////////////
+square = 0
+diceRoll = 0
+
+gameLoop: while square != finalSquare {
+    println("diceRoll is \(diceRoll), square is \(square), and board[square] is \(board[square])")
+    if ++diceRoll == 7 {diceRoll = 1}
+    switch square + diceRoll {
+    case finalSquare:
+        break gameLoop
+    case let newSquare where newSquare > finalSquare:
+        continue gameLoop
+    default:
+        square += diceRoll
+        square += board[square]
+        
+    }
+}
+println("game over three")
