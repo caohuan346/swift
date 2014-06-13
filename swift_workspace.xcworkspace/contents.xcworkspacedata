@@ -41,5 +41,8 @@
       <FileRef
          location = "group:06_Snakes and Ladders/06_Snakes and Ladders.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:07_Functions/07_Functions.xcodeproj">
+      </FileRef>
    </Group>
 </Workspace>
