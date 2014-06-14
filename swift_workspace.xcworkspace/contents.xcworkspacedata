@@ -44,5 +44,8 @@
       <FileRef
          location = "group:07_Functions/07_Functions.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:08_Closures/08_Closures.xcodeproj">
+      </FileRef>
    </Group>
 </Workspace>
