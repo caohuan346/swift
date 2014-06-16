@@ -120,6 +120,9 @@ println(incrementByTen())  //10
 println(incrementByTen())  //20
 println(incrementByTen())  //30
 
+var alsoIncrementByTen = incrementByTen
+println(alsoIncrementByTen())  //40
+
 
 
 

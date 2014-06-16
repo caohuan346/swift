@@ -47,5 +47,8 @@
       <FileRef
          location = "group:08_Closures/08_Closures.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:09_Enumerations/09_Enumerations.xcodeproj">
+      </FileRef>
    </Group>
 </Workspace>
