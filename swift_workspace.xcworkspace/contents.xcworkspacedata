@@ -50,5 +50,11 @@
       <FileRef
          location = "group:09_Enumerations/09_Enumerations.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:10_Classes and Structures/10_Classes and Structures.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:11_Properties/11_Properties.xcodeproj">
+      </FileRef>
    </Group>
 </Workspace>

@@ -61,16 +61,42 @@ aProductBarcode = .QRcode("ABCDEFGHIJKLMNOP")
 println(aProductBarcode)
 
 
-//switch aProductBarcode {
-//    case .UPCA
-//    
-//}
+switch aProductBarcode {
+case .UPCA(let numberSystem, let identifier, let check):
+    println("\(numberSystem), \(identifier), \(check)")
+case .QRcode(let productcode):
+    println("\(productcode)")
+}
+
+enum ASCIIControlCharacter: Character {
+    case Tab = "\t"
+    case LineFeed = "\n"
+    case CarriageReturn = "\r"
+}
+
+enum Planet2: Int {
+    case Mercury = 1, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune
+}
+println("\(Planet2.Mars) ...")
+
+let earthOrder = Planet2.Earth.toRaw()
+println("\(earthOrder)")
+
+let possiblePlanet = Planet2.fromRaw(7)
+println("\(possiblePlanet)")
 
 
-
-
-
-
+let positionToFind = 9
+if let somePlanet = Planet2.fromRaw(positionToFind) {
+    switch somePlanet {
+    case .Earth:
+        println("Mostly harmless")
+    default:
+        println("Not a safe place for humans")
+    }
+} else {
+    println("There isn't a planet at position \(positionToFind)")
+}
 
 
 
