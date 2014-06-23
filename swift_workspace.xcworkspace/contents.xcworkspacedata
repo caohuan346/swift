@@ -56,5 +56,8 @@
       <FileRef
          location = "group:11_Properties/11_Properties.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:12_Methods/12_Methods.xcodeproj">
+      </FileRef>
    </Group>
 </Workspace>
