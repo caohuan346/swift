@@ -62,5 +62,8 @@
       <FileRef
          location = "group:13_Subscripts/13_Subscripts.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:14_Inheritance/14_Inheritance.xcodeproj">
+      </FileRef>
    </Group>
 </Workspace>
